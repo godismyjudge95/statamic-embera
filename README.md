@@ -5,7 +5,7 @@
 ## Features
 
 This addon allows you to use an `{{ embera }}` tag to embed nearly any video URL with an iframe.
-Embera supports embedding a wide variety of online video providers: https://github.com/mpratt/Embera/blob/master/doc/02-providers.md
+Embera supports embedding a wide variety of online video providers: [https://github.com/mpratt/Embera/blob/master/doc/02-providers.md](https://github.com/mpratt/Embera/blob/master/doc/02-providers.md)
 
 ## How to Install
 
@@ -33,10 +33,10 @@ Outputs:
 ```
 
 To see all the possible parameters see the Embera documentation:
-https://github.com/mpratt/Embera/blob/master/doc/01-usage.md#passing-configuration-options
+[https://github.com/mpratt/Embera/blob/master/doc/01-usage.md#passing-configuration-options](https://github.com/mpratt/Embera/blob/master/doc/01-usage.md#passing-configuration-options)
 
 All the attributes passed to the Embera tag are passed through to the Embera class instance.
 
 ## Thanks
 
-Many thanks to mpratt and the contributors of Embera - https://github.com/mpratt/Embera 
+Many thanks to mpratt and the contributors of Embera - [https://github.com/mpratt/Embera](https://github.com/mpratt/Embera)
