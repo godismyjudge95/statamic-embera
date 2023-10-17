@@ -1,9 +1,10 @@
 {
     "name": "godismyjudge95/statamic-embera",
+    "license": "MIT",
     "description": "A video embed tag using the Embera oEmbed library for Statamic 4+",
     "require": {
         "mpratt/embera": "^2.0",
-        "statamic/cms": ">=4.0"
+        "statamic/cms": "^4.0"
     },
     "autoload": {
         "psr-4": {
