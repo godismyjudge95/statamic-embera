@@ -29,7 +29,7 @@ Simply use the embera tag with a video url:
 
 Outputs:
 ```
-&lt;iframe class="embera-embed-responsive-item embera-embed-responsive-item-video" src="https://www.youtube.com/embed/dQw4w9WgXcQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""&gt;&lt;/iframe&gt;
+<iframe class="embera-embed-responsive-item embera-embed-responsive-item-video" src="https://www.youtube.com/embed/dQw4w9WgXcQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
 ```
 
 To see all the possible parameters see the Embera documentation:
