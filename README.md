@@ -1,23 +1,42 @@
 # Statamic Embera
 
-> Statamic Embera is a Statamic addon that does something pretty neat.
+> A video embed tag using the Embera oEmbed library for Statamic 4+
 
 ## Features
 
-This addon does:
-
-- This
-- And this
-- And even this
+This addon allows you to use an `{{ embera }}` tag to embed nearly any video URL with an iframe.
+Embera supports embedding a wide variety of online video providers: https://github.com/mpratt/Embera/blob/master/doc/02-providers.md
 
 ## How to Install
 
-You can search for this addon in the `Tools > Addons` section of the Statamic control panel and click **install**, or run the following command from your project root:
+Run the following command from your project root:
 
 ``` bash
 composer require godismyjudge95/statamic-embera
 ```
 
+If you want a quick start in styling the iframe you can include the base responsive styles in your `site.css`:
+```
+import '@/../../vendor/godismyjudge95/statamic-embera/resources/css/addon.css';
+```
+
 ## How to Use
 
-Here's where you can explain how to use this wonderful addon.
+Simply use the embera tag with a video url:
+```
+{{ embera src="https://www.youtube.com/watch?v=dQw4w9WgXcQ" height="600" width="" responsive="true" class="mx-auto" }}
+```
+
+Outputs:
+```
+&lt;iframe class="embera-embed-responsive-item embera-embed-responsive-item-video" src="https://www.youtube.com/embed/dQw4w9WgXcQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""&gt;&lt;/iframe&gt;
+```
+
+To see all the possible parameters see the Embera documentation:
+https://github.com/mpratt/Embera/blob/master/doc/01-usage.md#passing-configuration-options
+
+All the attributes passed to the Embera tag are passed through to the Embera class instance.
+
+## Thanks
+
+Many thanks to mpratt and the many contributors of Embera - https://github.com/mpratt/Embera 
