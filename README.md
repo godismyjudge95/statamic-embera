@@ -39,4 +39,4 @@ All the attributes passed to the Embera tag are passed through to the Embera cla
 
 ## Thanks
 
-Many thanks to mpratt and the many contributors of Embera - https://github.com/mpratt/Embera 
+Many thanks to mpratt and the contributors of Embera - https://github.com/mpratt/Embera 
